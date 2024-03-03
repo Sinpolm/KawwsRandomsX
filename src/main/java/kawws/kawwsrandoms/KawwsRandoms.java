@@ -1,5 +1,7 @@
 package kawws.kawwsrandoms;
 
+import kawws.kawwsrandoms.block.ModBlocks;
+import kawws.kawwsrandoms.item.ModItemGroups;
 import kawws.kawwsrandoms.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +15,7 @@ public static final String MOD_ID = "kawwsrandoms";
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlock();
 	}
 	}

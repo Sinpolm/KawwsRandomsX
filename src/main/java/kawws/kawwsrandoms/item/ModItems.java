@@ -12,9 +12,10 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item STEEL = registerItem("steel", new Item(new FabricItemSettings()));
-
+    public static final Item RAW_STEEL = registerItem("raw_steel", new Item(new FabricItemSettings()));
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(STEEL);
+        entries.add(RAW_STEEL);
     }
     private static Item registerItem(String name, Item item) {
          return Registry.register(Registries.ITEM, new Identifier(KawwsRandoms.MOD_ID, name), item);

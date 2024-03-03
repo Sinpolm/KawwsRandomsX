@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+        "item": "kawwsrandoms:steel"
+   }
+  },
+  "result": {
+    "item": "kawwsrandoms:steel_block"
+  }
+}
